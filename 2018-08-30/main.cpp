@@ -8,6 +8,6 @@ int main()
 	
 	
 	
-    cout << "Suh dude";
+    cout << "Suh dude, sug mig";
 	return 0;
 }
