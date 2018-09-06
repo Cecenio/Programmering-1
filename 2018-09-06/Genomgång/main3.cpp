@@ -22,5 +22,12 @@ int main ()
 	cout << f1 << endl;	
 	cout << "f1 = " << f1 << endl;
 	
+	int heltal1;
+	cin >> heltal1;
+	cout << heltal1 << endl;
+	
+	
+	
+	
 	  return 0;
 }
