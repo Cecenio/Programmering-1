@@ -38,11 +38,12 @@ int main()
 	
 	int t = 4.96;
 	cout << t << endl; // 4 klipper av deciamldelen
-	int a = 3;
-	int b = 4;
+	int a = 4;
+	int b = 3;
+	// delat med
 	int heltalskvot = a/b;
 	cout << "Heltalskvot " << heltalskvot << endl;
-	float flyttalskvot = a/b;
+	float flyttalskvot = a/(float)b;
 	cout << "Flyttalskvot  " << flyttalskvot << endl;
 	
     return 0;	
