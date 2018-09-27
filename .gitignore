@@ -1,3 +1,10 @@
-#Linux executable
-**/main
-**/!*.cpp
+# Ignore Everything
+*
+
+# But not .cpp
+!*.cpp
+# Or directories...
+!*/
+# ...and not these files
+!.gitignore
+!README.md
