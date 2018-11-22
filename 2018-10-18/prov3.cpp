@@ -19,11 +19,11 @@ int main()
 	
     int pos = text.find(tecken, 0);
     
-    int start = pos + 2;
+    int start = pos;
     
     int langd = tecken.length();
 
-	string ordet = text.substr(start, langd);
+	string ordet = text.substr(start, langd + 2);
 	
 	cout << ordet << " plockas ut!" << endl;
 	
