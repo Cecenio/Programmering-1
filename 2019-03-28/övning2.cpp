@@ -5,7 +5,7 @@ void hittastor(int tal[], int n);
 
 int main()
 {
-	int antal;
+	int antal = 100;
 	cout << "Hur många värden vill du skriva in (max 100): " << endl;
 	cin >> antal;
 	

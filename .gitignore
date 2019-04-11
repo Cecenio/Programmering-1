@@ -1,10 +1,19 @@
 # Ignore Everything
 *
-
-# But not .cpp
+# But not
 !*.cpp
-# Or directories...
+!*.h
+!*.pro
+!*.ts
+!*.grc
+!*.rc
+!*.ui
+!*.png
+!*.jpg
+!*.ico
+!LICENSE
+# Or directories
 !*/
-# ...and not these files
+# and this
 !.gitignore
 !README.md
