@@ -22,7 +22,7 @@ void ritaRomb(int hojd)
 	cout << "*****" << endl;
 	{
     for( int k = 0; k <= n; k++)
-         cout << ' ';
+         cout << 'a';
 	}
 }
 }

@@ -40,6 +40,7 @@ void meny()
 				d(passagerare);
 				break;
 				default:
+				cout << "felinmatning!";
 				return;
 				}
 	
